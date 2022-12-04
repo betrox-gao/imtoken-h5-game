@@ -1,0 +1,46 @@
+{
+  "pages": [
+    {
+      "path": "pages/game/home",
+      "style": {
+        // "navigationBarTitleText": "星球大对决",
+        //#ifdef H5
+        "navigationStyle": "custom"
+        //#endif
+      }
+    },
+    {
+      "path": "pages/game/wordsExplosion",
+      "style": {
+        // "navigationBarTitleText": "星球大对决",
+        //#ifdef H5
+        "navigationStyle": "custom"
+        //#endif
+      }
+    },
+    {
+      "path": "pages/game/supplierPage",
+      "style": {
+        // "navigationBarTitleText": "星球大对决",
+        //#ifdef H5
+        "navigationStyle": "custom"
+        //#endif
+      }
+    },
+    {
+      "path": "pages/game/wordsExplosionResult",
+      "style": {
+        // "navigationBarTitleText": "星球大对决",
+        //#ifdef H5
+        "navigationStyle": "custom"
+        //#endif
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  }
+}

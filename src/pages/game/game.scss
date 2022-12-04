@@ -1,0 +1,50 @@
+
+@import url('https://fonts.font.im/css?family=Quicksand:700');
+uni-page-body {
+  height: 100%;
+}
+@mixin btn($bgColor) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 20px;
+  border: 1px solid #162b64;
+  text-shadow: 1px 1px 0 #2f50a9, -1px -1px 0 #2f50a9, -1px 1px 0 #2f50a9,
+  1px -1px 0 #2f50a9, 2px 2px 1px #2f50a9;
+  border-radius: 999px;
+  box-sizing: border-box;
+  box-shadow: inset 0px 2px 0px rgba(255, 255, 255, 0.4);
+  background: $bgColor;
+}
+.bgStyle {
+  width: 100%;
+  height: 100%;
+}
+.primary {
+  @include btn(linear-gradient(118.19deg, #66bfff 25.53%, #467bec 160.43%));
+}
+.default {
+  @include btn(
+    linear-gradient(312.2deg, #f36a4a -41.83%, #ff5195 22.78%, #ffb0f6 160.83%)
+  );
+}
+.game-icon {
+  background: url('~@/static/imtoken/game_icon.png') no-repeat;
+  background-size: 417px 1331px;
+}
+.game-icon-avatar1 {
+  background-position: 0 -655px;
+}
+.game-icon-avatar2 {
+  background-position: 0 -835px;
+}
+.game-icon-mini-avatar1 {
+  background-size: 250px 798px;
+  background-position: 0 -393px;
+}
+.game-icon-mini-avatar2 {
+  background-size: 250px 798px;
+  background-position: 0 -501px;
+}
